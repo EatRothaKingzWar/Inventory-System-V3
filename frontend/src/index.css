@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Kantumruy Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: #f8fafc;
+}
+
+/* Print CSS សម្រាប់ម៉ាស៊ីនព្រីនវិក្កយបត្រ 80mm និង A4 */
+@media print {
+  body {
+    background-color: white !important;
+  }
+  .print\\:hidden {
+    display: none !important;
+  }
+}

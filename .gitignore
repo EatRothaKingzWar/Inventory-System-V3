@@ -1,0 +1,7 @@
+# សំខាន់៖ ការពារកុំឱ្យ Push File ផ្ទុកលេខសម្ងាត់ (.env) ទៅកាន់ GitHub
+node_modules/
+.env
+dist/
+build/
+.DS_Store
+*.log
